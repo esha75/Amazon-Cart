@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border:border-box;
+}
+.nav{
+    height:60px;
+    background-color: #0f1111;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.nav-logo{
+    width:100px;
+    height: 50px;
+    margin: 1px;
+    padding-top:1px;
+    padding-right: 8px;
+    padding-bottom: 0px;
+    padding-left: 6px;
+}
+.logo{
+    background-image: url("../IMAGES/amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+.border{
+    border:2px solid transparent;
+
+}
+.border:hover{
+    border:1.5px solid white;
+    cursor: pointer;
+}
+
+.a1{
+    color:#cccccc;
+    font-size :12px;
+    margin-left: 15px;
+}
+.a2 a{
+   font-size: 12px;
+    margin-left: 3px;
+    text-decoration: none;
+    color:white;
+
+}
+.addicon{
+    display: flex;
+    align-items: center;
+}
+.nav-address{
+    height: 40px;
+    width:150px;
+    padding-top: 12px;
+    padding-bottom: 1px;
+    padding-right: 0;
+    margin:5px  2px 5px 0px;
+}
+.navsearch{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius:5px;
+
+}
+.search-select{
+    background-color: #f3f3f3;
+    width:50px;
+    text-align: center;
+    border-radius: 5px 0px 0px 5px;
+    border: none;
+}
+.search-box{
+    width:100%; 
+    font-size :1rem;
+    border: none;
+}
+.serachicon{
+    width:45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    border-radius:0px 5px 5px 0px;
+    color: #0f1111;
+}
+
+.search-box:hover{
+    border: 2px solid #febd68;
+}
+
+    
+.divlang{
+    height:50px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.s1{
+    height:19px;
+    width:50px;
+
+}
+.s2{
+    height: 19px;
+    width:48%;
+    background-image:url("../IMAGES/india2.jpg");
+    background-size: cover;
+    float: left;
+}
+.s3s{
+    height: 19px;
+    width:48%;
+    border: none;
+    font-size: 12px;
+    float: right;
+    appearance: none;
+    background-color: #0f1111;
+    color: white;
+
+}
+
+
+span{
+    font-size: 0.7rem;
+
+}
+
+.a2{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.signin{
+    height:40px;
+    padding-top: 10px;
+    padding-left: 2px;
+    padding-right: 2px;
+ 
+}
+.return{
+    height:40px;
+    padding-top: 10px;
+    padding-left: 2px;
+    padding-right: 2px;
+ 
+}
+.cart i{
+    font-size: 30px;
+}
+.cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+    height:40px;
+    padding-top: 10px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+
+.panel{
+    height:40px;
+    background-color: #222f3d;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+
+}
+
+.paneloption p{
+    display: inline;
+    margin-left: 15px;
+}
+.paneloption {
+    width:68%;
+    font-size: 0.85rem;
+}
+.deals{
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+.main{
+    height:535px;
+    width:1262px;
+    background-color: #EAEDED;
+    font-size:14px;
+    border:1px solid black;
+    color:#0f1111;
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    height:500px;
+    width:883px;
+    margin-bottom:20px;
+    padding-top :20px;
+    padding-bottom: 15px;
+
+}
+.innerleft{
+    width:816px;
+    height: 423px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    margin-left: 20px;
+    background-color: white;
+}
+.innerleft h1 {
+    font-size: 28px;
+    font-weight: 200px;
+    color: #0f1111;
+    box-sizing: border-box;
+    line-height: 36px;
+}
+.mm{
+    height:304px;
+    width:816px;
+    margin-top: 12px;
+    display: flex;
+}
+.foot{
+    width:816px;
+    height: 24px;
+    margin-bottom: 4px;
+    text-align: right;
+}
+.right{
+    height:500px;
+    width:350px;
+    margin-bottom:20px;
+    padding-top :20px;
+    padding-bottom: 15px;
+    margin-right: 20px;
+}
+.innerright{
+    height: 250px;
+    width: 330px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: white;
+}
